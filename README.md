@@ -18,6 +18,7 @@ ruby pig_latin.rb "The quick brown fox!"
 include PigLatin
 
 str = translate("The quick brown fox!")
+
 puts str
 
 ---
