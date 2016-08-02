@@ -11,14 +11,16 @@ To use the translator in another ruby script, import the PigLatin module and inv
 Example:
 
 ruby pig_latin.rb "The quick brown fox!"
->>Ethay ickquay ownbray oxfay!
+>Ethay ickquay ownbray oxfay!
 
 ---
+
 include PigLatin
 
 str = translate("The quick brown fox!")
 puts str
+
 ---
 
 output:
->>Ethay ickquay ownbray oxfay!
+>Ethay ickquay ownbray oxfay!
